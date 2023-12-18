@@ -5,7 +5,6 @@ Database made with phpmyadmin, in which there are three tables:
 -the list of courses and subjects linked by their ids;
 
 I implemented a simple UI
-
 ![Alt text](media/image.png)
 
 So i can show the CRUD actions directly from a front end experience. 
