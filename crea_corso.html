@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/corsi.css">
+</head>
+<body>
+    <h2>Inserimento Dati Corso</h2>
+    <form action="corso/create.php" method="post" class="form">
+        <label for="nome">Nome Corso:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+
+        <label for="posti">Numero Posti:</label><br>
+        <input type="number" id="posti" name="posti"><br>
+
+        <label for="materie">Materie (Separate da virgola):</label><br>
+        <input type="text" id="materie" name="materie"><br>
+
+        <input type="submit" value="Inserisci Corso" class="btn">
+    </form>
+
+    
+</body>
+</html>

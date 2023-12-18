@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corsi</title>
+    <link rel="stylesheet" href="css/corsi.css">
+</head>
+<body>
+    <h2>Elenco Corsi</h2>
+    <select id="parametro">
+        <option value="nome">Nome</option>
+        <option value="posti">Posti</option>
+        <option value="materie">Materie</option>
+    </select>
+    <input type="text" id="value" placeholder="Inserisci valore di ricerca">
+    <button class="btn" id="filter" onclick="ricerca()">Filtra</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Posti</th>
+                <th>Materie</th>
+            </tr>
+        </thead>
+        <!-- Qui verranno visualizzati i corsi e le relative materie -->
+        <tbody class='righe-corsi'>
+        </tbody>
+    </table>
+    <br>
+    <button class="btn" id="filter" onclick="ricerca()">Filtra</button>
+    <a href="crea_corso.html" class="btn">Crea Nuovo Corso</a>
+    <a href="materie.php" class='btn'>Vai alle Materie</a>
+
+    <script src='script/corsi.js'></script>
+</body>
+</html>

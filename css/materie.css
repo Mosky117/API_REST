@@ -1,0 +1,57 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#idMateria{
+    display: none;
+}
+/* Aggiungi stile per rendere il form un quadrato con il pulsante "<link>X</link>" all'interno, in alto a destra */
+.form-box {
+    position: relative;
+    top: 50%; /* Posizione verticale al 50% della pagina */
+    left: 50%; /* Posizione orizzontale al 50% della pagina */
+    transform: translate(-50%, -50%);/* Sposta il form all'indietro del 50% della sua larghezza e altezza, centrando il form */
+    width: 200px; /* Larghezza del form */
+    border: 1px solid #ccc; /* Bordo del form */
+    padding: 20px; /* Spaziatura interna del form */
+    background-color: black;
+}
+
+#chiudiForm {
+    position: absolute;
+    top: 5px; /* Posizione verticale del pulsante "<link>X</link>" rispetto al form */
+    right: 5px; /* Posizione orizzontale del pulsante "<link>X</link>" rispetto al form */
+    background-color: #f44336; /* Colore di sfondo del pulsante "<link>X</link>" */
+    color: white; /* Colore del testo del pulsante "<link>X</link>" */
+    border: none; /* Rimuovi il bordo del pulsante "<link>X</link>" */
+    border-radius: 50%; /* Rendi il pulsante "<link>X</link>" circolare */
+    width: 20px; /* Larghezza del pulsante "<link>X</link>" */
+    height: 20px; /* Altezza del pulsante "<link>X</link>" */
+    cursor: pointer; /* Cambia il cursore quando si passa sopra al pulsante "<link>X</link>" */
+}
+
+.form{
+    padding: 20px;
+}
+.form input{
+    margin-bottom: 20px;
+}
+
