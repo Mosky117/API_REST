@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PHP & MySql Project
 
 ## :desktop_computer: The project
@@ -15,6 +14,3 @@ The project involves a complete application to handele the CRUD operations for a
 - Start a web server (integrated with SQL and PHP) such as XAMPP (the one i choosed) or similar. (Need a PHP, Apache, HTTP environment)
 - Open your browser to 'localhost:/' and you can start navigating the app
 - It's probably necessary to update your .htaccess file to open the app
-=======
- 
->>>>>>> 44dc575e3c3f747afc900c5c865fc45d2dd60314
